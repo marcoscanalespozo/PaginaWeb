@@ -1,0 +1,14 @@
+/* Estilos para el buscador */
+#buscador {
+    transition: all 0.3s ease;
+    width: 80px;
+}
+
+#buscador:hover {
+    width: 250px;
+}
+
+/* Estilo para agrandar la lupa al hacer hover en el botón */
+.btn-outline-secondary:hover .fas.fa-search {
+    transform: scale(1.2); /* Cambiar el tamaño al hacer hover */
+}
